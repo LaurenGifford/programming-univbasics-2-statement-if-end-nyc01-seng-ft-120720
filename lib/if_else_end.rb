@@ -1,17 +1,6 @@
-
-  run_code_inside = false
-  puts "Code before if...end"
-  if run_code_inside
-    puts "code inside"
-  end
-  puts "Code after if...end"
-  
-  chance_of_rain = 0.3
-  if chance_of_rain <= 0.25
-    puts "Pack a sun shelter!"
-  elsif (chance_of_rain > 0.25 && chance_of_rain< 0.75)
-    puts "Pack an umbrella!"
+current_time = Time.now
+  if current_time / 2
+    puts "Even!"
   else
-    puts "Stay home and read Hagel."
+    puts "Odd!"
   end
-  
