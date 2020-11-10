@@ -1,2 +1,5 @@
 # Write your solution here
-if <something that is either true or false>
+if <1+1 = 2>
+  if true
+    puts "This code runs!"
+  end
