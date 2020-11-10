@@ -1,5 +1,5 @@
 current_time = Time.now
-  if current_time / 2
+  if true
     puts "Even!"
   else
     puts "Odd!"
