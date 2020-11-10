@@ -6,5 +6,4 @@ current_time = current_time.to_i
     puts "Odd!"
   end
   
-  if Time.now.to_i.even?
     
